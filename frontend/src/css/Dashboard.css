@@ -1,0 +1,233 @@
+/* StudentComponent.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2a3f54;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #d5d8dc;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+th {
+  background-color: #2a3f54;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+td {
+  color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button.logout-btn {
+  background-color: #d9534f;
+  margin-top: 10px;
+}
+
+button.logout-btn:hover {
+  background-color: #c9302c;
+}
+
+.alert {
+  color: #d9534f;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+
+/* Id card css */
+
+/* Styling for ID Card */
+.id-card-container {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.id-card-container h1 {
+  font-size: 1.5rem;
+  color: #2a3f54;
+  margin-bottom: 10px;
+}
+
+.id-card-container p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.id-card-container p strong {
+  color: #2a3f54;
+}
+
+.id-card-container button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #d9534f;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.id-card-container button:hover {
+  background-color: #c9302c;
+}
+
+/* Add some hover effect to enhance interactivity */
+.id-card-container:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+
+
+.projects-list {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+td {
+  font-size: 0.95rem;
+}
+
+.project-item {
+  padding: 15px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
